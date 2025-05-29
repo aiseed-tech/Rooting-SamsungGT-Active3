@@ -1,4 +1,4 @@
-# Rooting Samsung Devices
+# Rooting Samsung Devices - Galaxy Tab Active3
 
 ## Words of Caution
 This guide assumes you have some experience with rooting and flashing firmware. Proceed with caution, and only attempt this on your own personal devices. Remember, rooting can void warranties and potentially brick your device. I am not responsible for any damages or losses that may occur. Be responsible for your actions, and follow each step carefully.
@@ -8,8 +8,21 @@ This guide assumes you have some experience with rooting and flashing firmware. 
 - **Recent backup of your tablet**, as all existing data will be erased.
 - **Internet access via Wi-Fi**, necessary for OEM unlocking.
 
+## Enviorment
+- Win11 H2
+- SAMSUNG_USB_Driver_for_Mobile_Phones_v1.9.0.0
+- adb
+
+- SM-T575
+- Android 13
+- Baseband: T575XXS8EXA2
+- Kernel: 4.9.191-27282692
+- Service provider software version: SAOMC_SM-T575_OXM_BTU_13_0009
+- BTU_BTU_EEX_BTU
+- IMEI needed for download image from Bifrost
+
 ### Software Requirements
-1. [Magisk](https://github.com/topjohnwu/Magisk/releases) or [Kitsune Mask](https://github.com/HuskyDG/magisk-files/releases) (a Fork of Magisk)
+1. **[Magisk](https://github.com/topjohnwu/Magisk/releases)** or [Kitsune Mask](https://github.com/HuskyDG/magisk-files/releases) (a Fork of Magisk)
 2. [Patched Odin 3.14.1](https://xdaforums.com/attachments/odin3-v3-14-1_3b_patched-zip.5158507/)
 3. [Samsung USB Driver](https://developer.samsung.com/galaxy/others/android-usb-driver-for-windows)
 4. [SamloaderKotlin Bifrost](https://github.com/zacharee/SamloaderKotlin/releases)
